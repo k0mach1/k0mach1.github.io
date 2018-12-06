@@ -1,0 +1,12 @@
+th, td {
+    border: solid 1px;
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+.about-table {
+    border-collapse: collapse;
+}
