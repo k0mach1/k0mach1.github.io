@@ -18,85 +18,157 @@
     <script src="js/uikit-icons.min.js"></script>
   </head>
   <body>
-    <div class="uk-container-large uk-margin-large">
-      <section class="uk-section uk-section-primary">
-        <h1 class="uk-heading-primary">Machio's Profile</h1>
-      </section>
-      <section class="uk-section uk-section-default">
-        <div class="section-title-cotainer">
-          <h2 class="uk-heading-bullet">About me</h2>
-        </div>
+    <section id="title" class="uk-section uk-section-primary uk-section-small">
+      <div class="page-title-container">
+        <div class="uk-heading-primary page-title">Welcome to Machio's Profile</div>
+      </div>
+    </section>
+    <section id="about-me" class="uk-section uk-section-default">
+      <div class="section-title-cotainer">
+        <h2 class="uk-heading-bullet">About me</h2>
+      </div>
+      <div class="section-body-cotainer">
+        <table class="uk-table uk-table-divider">
+          <tr>
+            <td>ID</td>
+            <td>k0mach1</td>
+          </tr>
+          <tr>
+            <td>Nickname</td>
+            <td>machio / まちお</td>
+          <tr>
+            <td>From</td>
+            <td>Tokyo, Japan</td>
+          </tr>
+          <tr>
+            <td>Occupation</td>
+            <td>Univ. of Tokyo</td>
+          </tr>
+          <tr>
+            <td>Major</td>
+            <td>System Design and Management</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section id="work-experience" class="uk-section uk-section-muted">
+      <div class="section-title-cotainer">
+        <h2 class="uk-heading-bullet">Work Experience</h2>
+      </div>
+      <div class="section-body-cotainer">
+        <table class="uk-table uk-table-divider">
+          <tr>
+              <td>
+                <a class="uk-link-muted" href="https://dena.com">DeNA Co., Ltd.</a>
+              </td>
+              <td>iOS Developer / Server side Developer</td>
+              <td>Oct.2018-Now</td>
+            </tr>
+          <tr>
+            <td>
+              <a class="uk-link-muted" href="https://flatt.tv">Flatt, Inc.</a>
+            </td>
+            <td>Co-Founder / Engineer Manager / iOS Developer</td>
+            <td>Sep.2017-Jun.2018</td>
+          </tr>
+          <tr>
+            <td>
+              <a class="uk-link-muted" href="https://company.finc.com">FiNC Technologies, Inc.</a>
+            </td>
+            <td>Web Application Developer</td>
+            <td>Jan.2016-May.2017</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section id="links" class="uk-section uk-section-default">
+      <div class="section-title-cotainer">
+        <h2 class="uk-heading-bullet">Links</h2>
+      </div>
+      <div class="section-body-cotainer">
+        <table class="uk-table uk-table-divider">
+          <tr>
+            <td><span uk-icon="icon: file-edit"></span> Blog</td>
+            <td>
+              <a class="uk-link-muted" href="https://blog.machio.me">
+                blog.machio.me
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><span uk-icon="icon: twitter"></span> Twitter</td>
+            <td>
+              <a class="uk-link-muted" href="https://twitter.com/_k0mach1">
+                @_k0mach1
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><span uk-icon="icon: github"></span> Github</td>
+            <td>
+              <a class="uk-link-muted" href="https://github.com/k0mach1">
+                @k0mach1
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><span uk-icon="icon: linkedin"></span> Linkedin</td>
+            <td>
+              <a class="uk-link-muted" href="https://www.linkedin.com/in/k0mach1/">
+                @k0mach1
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><span uk-icon="icon: instagram"></span> Instagram</td>
+            <td>
+              <a class="uk-link-muted" href="https://www.instagram.com/i_am_machio">
+                @i_am_machio
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section id="works" class="uk-section uk-section-muted">
+      <div class="section-title-cotainer">
+        <h2 class="uk-heading-bullet">Works</h2>
         <div class="section-body-cotainer">
-          <table class="uk-table uk-table-divider">
-            <tr>
-              <td>id</td>
-              <td>k0mach1</td>
-            </tr>
-            <tr>
-              <td>nickname</td>
-              <td>machio / まちお</td>
-            <tr>
-              <td>occupation</td>
-              <td>University of Tokyo</td>
-            </tr>
-            </tr>
-          </table>
+          <h3 class="uk-heading-divider">
+            <a class="uk-link-muted" href="https://pinqul.tv">PinQul (Already Closed)</a>
+          </h3>
+          <img data-src="src/img/pinqul.png" uk-img>
         </div>
-      </section>
-      <section class="uk-section uk-section-muted">
-        <div class="section-title-cotainer">
-          <h2 class="uk-heading-bullet">Links</h2>
-        </div>
-        <div class="section-body-cotainer">
-          <table class="uk-table uk-table-divider">
-            <tr>
-              <td>Twitter</td>
-              <td>
-                <a class="uk-link-muted" href="https://twitter.com/_k0mach1">
-                  @_k0mach1
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Github</td>
-              <td>
-                <a class="uk-link-muted" href="https://github.com/k0mach1">
-                  @k0mach1
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Qiita</td>
-              <td>
-                <a class="uk-link-muted" href="https://qiita.com/k0mach1">
-                  @k0mach1
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Instagram</td>
-              <td>
-                <a class="uk-link-muted" href="https://www.instagram.com/i_am_machio">
-                  @i_am_machio
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>Blog</td>
-              <td>
-                <a class="uk-link-muted" href="https://blog.machio.me">
-                  blog.machio.me
-                </a>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </section>
-      <section class="uk-section uk-section-default">
-        <div class="section-title-cotainer">
-          <h2 class="uk-heading-bullet">Works</h2>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
+    <section id="contact" class="uk-section uk-section-default">
+      <div class="section-title-cotainer">
+        <h2 class="uk-heading-bullet">Contact</h2>
+      </div>
+      <div class="section-body-cotainer">
+      </div>
+    </section>
+    <section class="uk-section uk-section-secondary">
+      <div class="section-body-cotainer">
+        <h4 class="uk-heading-divider">Menu</h4>
+        <ul class="uk-list uk-list-large">
+          <li>
+            <a class="uk-link-muted menu-item" href="#about-me" uk-scroll>About me</a>
+          </li>
+          <li>
+            <a class="uk-link-muted menu-item" href="#work-experience" uk-scroll>Work Experience</a>
+          </li>
+          <li>
+            <a class="uk-link-muted menu-item" href="#links" uk-scroll>Links</a>
+          </li>
+          <li>
+            <a class="uk-link-muted menu-item" href="#works" uk-scroll>Works</li>
+          <li>
+            <a class="uk-link-muted menu-item" href="#contact" uk-scroll>Contact</a>
+          </li>
+        </ul>
+        this site is hosted on Github Pages
+      </div>
+    </section>
   </body>
 </html>
