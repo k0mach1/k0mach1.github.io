@@ -1,12 +1,8 @@
-th, td {
-    border: solid 1px;
-    padding: 5px;
+.section-title-cotainer {
+  margin-left: 40px;
 }
 
-td {
-    text-align: center;
-}
-
-.about-table {
-    border-collapse: collapse;
+.section-body-cotainer {
+  margin-left: 25px;
+  margin-right: 25px;
 }
