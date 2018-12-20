@@ -184,11 +184,17 @@
       <div class="section-title-cotainer">
         <h2 class="uk-heading-bullet">Works</h2>
         <div class="section-body-cotainer">
-          <h3 class="uk-heading-divider">
-            <a class="uk-link-muted" href="https://pinqul.tv">PinQul (Already Closed)</a>
-          </h3>
-          <img data-src="src/img/pinqul.png" uk-img>
-        </div>
+          <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="center: true">
+            <ul class="uk-slider-items uk-grid">
+              <li class="uk-width-3-4">
+                <a uk-toggle="target: #works-pinqul">
+                  <div class="uk-panel uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img class="uk-transition-scale-up uk-transition-opaque" data-src="src/img/pinqul.png" uk-img>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
       </div>
     </section>
     <section id="contact" class="uk-section uk-section-muted">
@@ -224,5 +230,13 @@
         this site is hosted on Github Pages
       </div>
     </section>
+    <div id="works-pinqul" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+          <h2 class="uk-modal-title uk-heading-divider">PinQul (Already Closed)</h2>
+          <img data-src="src/img/pinqul.png" uk-img>
+          <p>Japanese Live Shopping Service Specialized in Fashion Items</p>
+          <p>Link: <a class="uk-link-muted menu-item" href="https://pinqul.com">https://pinqul.com</a></p>
+        </div>
+    </div>
   </body>
 </html>
