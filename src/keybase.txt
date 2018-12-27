@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/k0mach1
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.machio.me
+  * I am k0mach1 (https://keybase.io/k0mach1) on keybase.
+  * I have a public key ASB1xXXoKi_GWh2WtITxd2M755wy740Ch7Ugfryh1csRzQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012075c575e82a2fc65a1d96b484f177633be79c32ef8d0287b5207ebca1d5cb11cd0a",
+      "host": "keybase.io",
+      "kid": "012075c575e82a2fc65a1d96b484f177633be79c32ef8d0287b5207ebca1d5cb11cd0a",
+      "uid": "a86a233a0d121cc533b0edfb54c87419",
+      "username": "k0mach1"
+    },
+    "merkle_root": {
+      "ctime": 1545886206,
+      "hash": "de855f92c009fd3c08f1b436b3aead5eb064f4c9fc05b8ec5df547ff8716edd5a899553a14e4c7a3ce67eebe928fe345639c8c3e66a4e15ea12a1225661b2cfc",
+      "hash_meta": "ecf4650ebcdb149b5da632189291ba40cd3950a0158b765da8398bb0c00aed7e",
+      "seqno": 4198179
+    },
+    "service": {
+      "entropy": "lOvLDuE27MD77EPKwydNZeYQ",
+      "hostname": "www.machio.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.2"
+  },
+  "ctime": 1545886251,
+  "expire_in": 504576000,
+  "prev": "5e83388321453c2ca71d7c304f7703f21d810dbaa781b0db8f2c2253a48f5c75",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdcV16CovxlodlrSE8XdjO+ecMu+NAoe1IH68odXLEc0Kp3BheWxvYWTESpcCBsQgXoM4gyFFPCynHXwwT3cD8h2BDbqngbDbjywiU6SPXHXEIHJD+uRkNgmBGj02EQlq36BKF5EOMC9L/roq1pTWlxFrAgHCo3NpZ8RA/4GHdVpfHBqAUXXza0Dvw6902RRL2xPZ7ipXUWezmF1wJL31be4oiycKV9CqieqX9EaAk1YDs36SEUTUlX+3DKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEsg/nyTmv6jh9rtkc8K2pZzMfMeNVUOhjx5ObMijYrMo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/k0mach1
+
+==================================================================
