@@ -1,6 +1,26 @@
 $('#contact-form').submit(function(event) {
   event.preventDefault();
   var form = event.target;
+
+  $('#contact-form').validate({
+    rules: {
+      'name': {
+        required: true,
+      },
+      'email': {
+        required: true,
+        email: true,
+      },
+      'body': {
+        required: true,
+      }
+    }
+  });
+
+  if (!$('#contact-form').valid()) {
+    return false;
+  }
+
   $.ajax({
     url: 'https://m3lcf0fruf.execute-api.eu-west-1.amazonaws.com/production/submit',
     type: 'post',
