@@ -23,8 +23,10 @@
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
+    <script src="js/contact.js"></script>
   </head>
   <body>
     <section id="title" class="uk-section uk-section-primary uk-section-small">
@@ -224,23 +226,19 @@
         <h2 class="uk-heading-bullet">Contact</h2>
       </div>
       <div class="section-body-cotainer">
-        <form>
-          <fieldset class="uk-fieldset">
-            <div class="uk-margin">
-              <input class="uk-input" type="text" placeholder="Name">
-            </div>
-            <div class="uk-margin">
-              <input class="uk-input" type="text" placeholder="Email">
-            </div>
-            <div class="uk-margin">
-              <textarea class="uk-textarea" rows="5" placeholder="Type your message"></textarea>
-            </div>
-            <div class="uk-margin">
-              <submit class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom slack-submit" uk-tooltip="Sorry, this form doesn't work right now">
-                Submit
-              </button>
-            </div>
-          </fieldset>
+        <form id="contact-form" action="https://m3lcf0fruf.execute-api.eu-west-1.amazonaws.com/production/submit">
+          <div class="uk-margin">
+            <input class="uk-input" type="text" name="name" placeholder="Name">
+          </div>
+          <div class="uk-margin">
+            <input class="uk-input" type="text" name="email" placeholder="Email">
+          </div>
+          <div class="uk-margin">
+            <textarea class="uk-textarea" rows="5" name= "body" placeholder="Type your message"></textarea>
+          </div>
+          <div class="uk-margin">
+            <input type="submit" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom slack-submit" value="Submit">
+          </div>
         </form>
       </div>
     </section>
