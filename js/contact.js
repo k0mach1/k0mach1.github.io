@@ -1,6 +1,7 @@
 $('#contact-form').submit(function(event) {
   event.preventDefault();
   var form = event.target;
+  console.log(form);
 
   $('#contact-form').validate({
     rules: {
@@ -36,6 +37,9 @@ $('#contact-form').submit(function(event) {
       pos: 'top-center',
       timeout: 3000
     });
+    form.name.value  = "";
+    form.email.value = "";
+    form.body.value = "";
   }).fail(function(jqXHR, textStatus, errorThrown) {
     UIkit.notification({
       message: 'Oops! Failed to send a Message',
